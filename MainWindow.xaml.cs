@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Arknights_Simulation.Simulation.Base;
+using Arknights_Simulation.Simulation.Models.Agents;
+using Arknights_Simulation.Simulation.Models.Enemies;
+using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Data;
 
 namespace Arknights_Simulation
@@ -11,16 +14,18 @@ namespace Arknights_Simulation
         public MainWindow()
         {
             InitializeComponent();
+            TestAttack();
         }
 
-        private void PropertyTextbox_OnTextChanged(object sender, TextChangedEventArgs e)
+        private void TestAttack()
         {
-            BindingExpression binding = (sender as TextBox).GetBindingExpression(TextBox.TextProperty);
-            if (binding.DataItem != null)
+            Angelina angelina = new Angelina();
+            IList<AbstractEnemy> enemies = new List<AbstractEnemy>();
+            for (int i = 0; i < 3; i++)
             {
-                binding.UpdateSource();
+                enemies.Add(new InsectAlpha());
             }
-            // also update the nodes' values
+            angelina.PerformSuperchargedAction(enemies);
         }
     }
 
