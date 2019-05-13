@@ -1,6 +1,6 @@
 # Arknights-Simulation
 
-Arknights (明日方舟)[https://www.reddit.com/r/arknights/] simulation is to run simulation with agents, and try to find the best as possible way to beat a level.
+Arknights [明日方舟](https://www.reddit.com/r/arknights/) simulation is to run simulation with agents, and try to find the best as possible way to beat a level.
 
 Planned features:
 - Should be able to recreate a level from the game
