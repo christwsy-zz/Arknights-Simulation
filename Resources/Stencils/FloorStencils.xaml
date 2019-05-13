@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:Arknights_Simulation"
+                    xmlns:c="clr-namespace:Arknights_Simulation.Controls">
+    <s:Toolbox x:Key="FloorStencils" ItemSize="70,70" SnapsToDevicePixels="True"
+               ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ItemsControl.Items>
+            <c:Floor IsHitTestVisible="False" FloorType="Ground" />
+            <c:Floor IsHitTestVisible="False" FloorType="Highland" />
+            <c:Floor IsHitTestVisible="False" FloorType="Forbidden" />
+            <c:Floor IsHitTestVisible="False" FloorType="GroundEnemyEntry" />
+            <c:Floor IsHitTestVisible="False" FloorType="AirEnemyEntry" />
+            <c:Floor IsHitTestVisible="False" FloorType="EnemyExit" />
+            <c:Floor IsHitTestVisible="False" FloorType="Pithole" />
+            <c:Floor IsHitTestVisible="False" FloorType="MedicalRune" />
+            <c:Floor IsHitTestVisible="False" FloorType="AntiAirRune" />
+            <c:Floor IsHitTestVisible="False" FloorType="ProtectRune" />
+            <c:Floor IsHitTestVisible="False" FloorType="Grass" />
+            <c:Floor IsHitTestVisible="False" FloorType="ScoutTower" />
+            <c:Floor IsHitTestVisible="False" FloorType="EMP" />
+            <c:Floor IsHitTestVisible="False" FloorType="ActivatedOriginStone" />
+            <c:Floor IsHitTestVisible="False" FloorType="HeatPump" />
+        </ItemsControl.Items>
+    </s:Toolbox>
+</ResourceDictionary>

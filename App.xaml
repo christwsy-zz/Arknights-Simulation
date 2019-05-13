@@ -4,6 +4,15 @@
              xmlns:local="clr-namespace:Arknights_Simulation"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources\Styles\Shared.xaml" />
+                <ResourceDictionary Source="Resources\Styles\ScrollBar.xaml" />
+                <ResourceDictionary Source="Resources\Styles\Expander.xaml" />
+                <ResourceDictionary Source="Resources\Styles\GroupBox.xaml" />
+                <ResourceDictionary Source="Resources\Styles\ToolTip.xaml" />
+                <ResourceDictionary Source="Resources\Styles\ScrollViewer.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
