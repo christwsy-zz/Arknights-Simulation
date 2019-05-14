@@ -102,22 +102,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Simulation\Bases\AbstractEnemy.cs" />
-    <Compile Include="Simulation\Bases\AbstractGame.cs" />
-    <Compile Include="Simulation\Bases\AbstractGameAction.cs" />
-    <Compile Include="Simulation\Bases\Agent\AbstractAgent.cs" />
-    <Compile Include="Simulation\Bases\Agent\AbstractDpsAgent.cs" />
-    <Compile Include="Simulation\Bases\Agent\AbstractHealerAgent.cs" />
-    <Compile Include="Simulation\Bases\Region.cs" />
-    <Compile Include="Simulation\Protocols\ITarget.cs" />
     <Compile Include="DesignerItem.cs" />
     <Compile Include="Controls\DragThumb.cs" />
     <Compile Include="Controls\Floor.cs" />
     <Compile Include="Controls\RelativePositionPanel.cs" />
-    <Compile Include="Simulation\Models\Agents\Angelina.cs" />
-    <Compile Include="Simulation\Models\Enemies\InsectAlpha.cs" />
-    <Compile Include="Simulation\Protocols\IAgentActions.cs" />
-    <Compile Include="Simulation\Protocols\IGameActionable.cs" />
     <Compile Include="Protocols\ISelectable.cs" />
     <Compile Include="DesignerCanvas.cs" />
     <Compile Include="Toolbox.cs" />

@@ -1,13 +1,12 @@
-﻿using Arknights_Simulation.Simulation.Base;
-using Arknights_Simulation.Simulation.Base.Agent;
-using Arknights_Simulation.Controls;
+﻿using ArknightsSimulationCore.Base;
+using ArknightsSimulationCore.Base.Agent;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Arknights_Simulation.Simulation.Models.Agents
+namespace ArknightsSimulationCore.Models.Agents
 {
     class Angelina : AbstractDpsAgent
     {

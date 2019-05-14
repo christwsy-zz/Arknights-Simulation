@@ -1,8 +1,8 @@
-﻿using Arknights_Simulation.Simulation.Protocols;
+﻿using ArknightsSimulationCore.Protocols;
 using System;
 using System.Collections.Generic;
 
-namespace Arknights_Simulation.Simulation.Base.Agent
+namespace ArknightsSimulationCore.Base.Agent
 {
     public abstract class AbstractAgent : ITarget
     {

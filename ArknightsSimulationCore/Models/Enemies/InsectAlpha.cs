@@ -1,6 +1,6 @@
-﻿using Arknights_Simulation.Simulation.Base;
+﻿using ArknightsSimulationCore.Base;
 
-namespace Arknights_Simulation.Simulation.Models.Enemies
+namespace ArknightsSimulationCore.Models.Enemies
 {
     class InsectAlpha : AbstractEnemy
     {

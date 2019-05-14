@@ -1,4 +1,4 @@
-﻿using Arknights_Simulation.Simulation.Protocols;
+﻿using ArknightsSimulationCore.Protocols;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Arknights_Simulation.Simulation.Base
+namespace ArknightsSimulationCore.Base
 {
     public abstract class AbstractGameAction : IGameActionable
     {

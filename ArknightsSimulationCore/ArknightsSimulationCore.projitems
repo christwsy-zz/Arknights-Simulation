@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{57C28E6D-9E76-4B4F-AA48-C90A803F34D8}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ArknightsSimulationCore</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Bases\AbstractEnemy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bases\AbstractGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bases\AbstractGameAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bases\Agent\AbstractAgent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bases\Agent\AbstractDpsAgent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bases\Agent\AbstractHealerAgent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bases\Region.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Agents\Angelina.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Enemies\InsectAlpha.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocols\IAgentActions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocols\IGameActionable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocols\ITarget.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Bases\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Protocols\" />
+  </ItemGroup>
+</Project>
